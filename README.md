@@ -1,2 +1,2 @@
 # Config-linux
-configuraciones peronales para linux
+configuraciones personales para linux
