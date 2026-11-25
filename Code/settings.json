@@ -1,0 +1,112 @@
+
+{
+    "workbench.activityBar.compact": true,
+    "workbench.activityBar.autoHide": true,
+    "workbench.activityBar.iconClickBehavior": "focus",
+
+    "workbench.colorTheme": "Dark Modern",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "workbench.editor.showTabs": "multiple",
+
+    "window.titleBarStyle": "native",
+
+    "editor.fontFamily": "DaddyTimeMono Nerd Font",
+    "editor.fontSize": 16,
+    "editor.fontWeight": "400",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 22,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorStyle": "line",
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "all",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.smoothScrolling": true,
+    "editor.padding.top": 12,
+
+    "terminal.integrated.fontFamily": "DaddyTimeMono Nerd Font",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.lineHeight": 1.15,
+    "terminal.integrated.cursorStyle": "block",
+    "terminal.integrated.cursorBlinking": true,
+
+  "workbench.colorCustomizations": {
+      // Fondos principales (más oscuros y profundos)
+      "editor.background": "#0e0914",
+      "sideBar.background": "#0e0914",
+      "panel.background": "#0e0914",
+      "terminal.background": "#0e0914",
+      "tab.activeBackground": "#0e0914",
+      "tab.inactiveBackground": "#161020",
+      "activityBar.background": "#161020",
+      "titleBar.activeBackground": "#161020",
+      "statusBar.background": "#161020",
+
+      // Fuentes y textos de la INTERFAZ (mantienen la legibilidad clara)
+      "sideBar.foreground": "#e2dafc",
+      "statusBar.foreground": "#e2dafc",
+      "tab.activeForeground": "#ffffff",
+      "tab.inactiveForeground": "#a297be",
+      "list.activeSelectionForeground": "#ffffff",
+      "terminal.foreground": "#f0edfd",
+
+      // Cursores y acentos
+      "editorCursor.foreground": "#ff6ec7",
+      "terminalCursor.foreground": "#ff6ec7",
+      "editorLineNumber.foreground": "#5d5272",
+      "editorLineNumber.activeForeground": "#ffffff",
+      "editor.selectionBackground": "#42285e",
+      "editor.lineHighlightBackground": "#1a1226",
+      "editorIndentGuide.background1": "#382d4a",
+      "editorIndentGuide.activeBackground1": "#a855f7",
+      "activityBar.foreground": "#c084fc",
+      "titleBar.activeForeground": "#ffffff",
+      "statusBar.border": "#2c223b",
+      "tab.activeBorderTop": "#ff6ec7",
+      "panel.border": "#2c223b",
+      "focusBorder": "#a855f7",
+      "list.activeSelectionBackground": "#382d4a",
+      "editor.foreground": "#e2dafc"
+    },
+
+    "editor.semanticHighlighting.enabled": true,
+
+    "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      { "scope": ["comment", "punctuation.definition.comment"],
+        "settings": { "foreground": "#7a6a99", "fontStyle": "italic" } },
+
+      { "scope": ["keyword", "storage.type", "storage.modifier", "keyword.control"],
+        "settings": { "foreground": "#ff6ec7" } },
+
+      { "scope": ["string", "string.quoted", "punctuation.definition.string"],
+        "settings": { "foreground": "#5ffbf1" } },
+
+      { "scope": ["constant.numeric", "constant.language", "constant.character"],
+        "settings": { "foreground": "#ffb86c" } },
+
+      { "scope": ["entity.name.function", "support.function", "meta.function-call"],
+        "settings": { "foreground": "#c084fc" } },
+
+      { "scope": ["entity.name.type", "entity.name.class", "support.class", "support.type"],
+        "settings": { "foreground": "#7df9c8" } },
+
+      { "scope": ["variable", "variable.other", "variable.parameter"],
+        "settings": { "foreground": "#e2dafc" } },
+
+      { "scope": ["variable.other.property", "support.type.property-name", "meta.object-literal.key"],
+        "settings": { "foreground": "#b8a3ff" } },
+
+      { "scope": ["keyword.operator", "punctuation"],
+        "settings": { "foreground": "#ff9ad5" } },
+
+      { "scope": ["entity.name.tag", "punctuation.definition.tag"],
+        "settings": { "foreground": "#ff6ec7" } },
+
+      { "scope": ["entity.other.attribute-name"],
+        "settings": { "foreground": "#c084fc" } }
+    ]
+  },
+
+}
